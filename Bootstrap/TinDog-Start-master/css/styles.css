@@ -1,0 +1,173 @@
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+/* Body */
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+p {
+  color: #8f8f8f;
+}
+
+/* containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+/* sections */
+.color-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section {
+  background-color: #fff;
+}
+
+/* Heading */
+.meet-new {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding:0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.iphone-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+/* Features section */
+#features {
+  position: relative;
+}
+.feature-header {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.features-row {
+  padding: 5%;
+  line-height: 2rem;
+}
+.feature-icon {
+  font-size: 4.5rem;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.logos {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+}
+.price-header {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.box {
+  border: 1px solid;
+  border-color: grey;
+  margin: 3% 2%;
+}
+.hidden-text {
+  text-decoration: line-through;
+  color: white;
+}
+
+/* Footer Section */
+.cta-header {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  padding: 25px 10px 25px;
+}
+.cta-button {
+  margin: 0 10px 70px;
+}
+#footer {
+  color: grey;
+  padding: 3% 10%;
+}
+.socials{
+  margin: 20px 10px;
+}
+
+/* Media Query */
+@media (max-width: 1029px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone-image {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
